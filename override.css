@@ -1,0 +1,145 @@
+body{
+	background-color: #CCDBDC;
+	
+
+}
+
+p{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: #247BA0;
+	font-family: 'Lobster', cursive;
+}
+#foodbox{
+	background-color: #052F5F;
+	border-radius:5px;
+}
+
+#foodbox2{
+	background-color: #052F5F;
+	border-radius:5px;
+}
+
+#logo, h3{
+	color: #F7F4F3;
+}
+
+form{
+	padding-left: 20px;
+	padding-top: 110px;
+	font-family: 'Lobster', cursive;
+	
+
+}
+
+label{
+	font-size: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #F7F4F3;
+}
+
+option{
+	font-size: 20px;
+	
+}
+
+
+#recipeBtn  {
+	margin-left:36%;
+	font-family: 'Lobster', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	background-color: #F18F01;
+	
+}
+
+#recipeBtn2{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	background-color: #F18F01;
+	margin-left: 7%;
+	margin-right: 10%;
+	margin-top: 10%;
+
+
+}
+
+#recipeBtn3{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	background-color: #F18F01;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 10%;
+
+
+}
+
+.foodpics{
+	
+	border-radius:50%;
+	width: 200px;
+	height: 200px;
+	margin-left: 12%;
+	
+
+
+}
+
+.foodpics:hover{
+	opacity: 0.7;
+	width: 190px;
+	height: 190px;
+	 
+	  
+	 
+	}
+
+
+
+#recipes {
+	margin-top: 5%;
+	padding-top: 2%;
+	border: #F18F01 solid 5px;
+	border-radius: 15px;
+	background-color: #F7F4F3; 
+	max-height: 400px;
+	overflow: scroll;
+}
+
+#p_revealrecipe{
+	font-family: 'Lobster', cursive;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+
+
+#map{
+	background-color: red;
+	height: 300px;
+	margin-top: 7%;
+	border-radius: 15px;
+}
+
+
+#music{
+	margin-top: 7%;
+	margin-bottom: 7%;
+	border-radius: 30px;
+}
+
+#placeholdertext{
+	color: #fff;
+}
+
+
+
+

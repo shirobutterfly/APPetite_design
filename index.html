@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>APPetite</title>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- Firebase Reference -->
+
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="override.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <section class="row">
+    <div class="jumbotron">
+    
+    	<h1 class="text-center" id="logo"><img src="assets/foodlogo.png">APPetite</h1>
+    	<h3 class="text-center">calibrate your eating experience</h3>
+    </div>
+
+  </section>
+<section class="hideIt">
+
+ <div class="row">
+ 
+   
+    <section id="foodbox" class="col-md-10 col-md-offset-2">
+
+
+
+        <form class="form-inline">
+
+            <label for="sel1"> Meal</label>
+
+            <select class="form-control" id="meal">
+              <option value="breakfast">Breakfast</option>
+              <option value="main+course">Lunch</option>
+              <option value="main+course">Dinner</option>
+            </select>
+
+       
+           <div class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input type="ingredient" class="form-control" id="ingredient" placeholder="Main Ingredient">
+
+            </div>
+
+
+            <label for="sel1"> Nutrition</label>
+            <select class="form-control" id="nutrition">
+              <option value="500">Healthfreak</option>
+              <option value="700">Health-conscious</option>
+              <option value="1500">Comfort food</option>
+            </select>
+
+            <label for="sel1"> Mood</label>
+
+            <select class="form-control" id="mood">
+              <option value="chinese">Chinese</option>
+              <option value="japanese">Japanese</option>
+              <option value="greek">Greek</option>
+              <option value="french">French</option>
+              <option value="italian">Italian</option>
+              <option value="mexican">Mexican</option>
+              <option value="american">American</option>
+            </select>
+
+           
+
+
+    <!--         <label for="sel1">Timeframe</label>
+            <select class="form-control" id="timeframe">
+              <option value="fast">Super fast (15-30 mins)</option>
+              <option value="medium">Weekday evening (30-60 mins)</option>
+              <option value="slow">I've got time (1+ hr)</option>
+
+            </select>
+ -->         
+        </form>
+
+            <a href="#" id="recipeBtn" class="btn btn-primary " role="button">Get a recipe!</a>
+
+   
+    </section>
+
+ 
+   
+
+
+    <section id="foodbox2" class="row">
+
+      <div id="foodstyle">
+       
+      </div>
+
+      <div class="recipeChoices col-md-12"></div>
+      <div id="recipeImagechoices">      </div>
+
+      
+        
+
+      
+      <div id="bottom">
+      <p id="placeholdertext">Here are where images from the api would display. Once clicked the recipe would appear in the lower white box</p>
+
+      <img class="foodpics" src="assets/foodpic1.jpg">
+      <img class="foodpics" src="assets/foodpic2.jpg">
+      <img class="foodpics" src="assets/foodpic3.jpg">
+      
+        <div class="col-md-10 col-md-offset-1" id="recipes">
+
+        <p id="p_revealrecipe">
+          
+
+          <p>Here are where the chosen recipe would be displayed.</p>
+        </p>
+      </div>
+         
+
+         <iframe id="music" class="col-md-3 col-md-offset-3" src="https://embed.spotify.com/?uri=spotify%3Auser%3Atamspam%3Aplaylist%3A66VJ6Sn4WEIAABDlDNVRa1" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+        
+
+        <a href="googlemapsapi.html" id="recipeBtn3" class="btn btn-primary col-md-2 " role="button" target="_blank">Find a store near you!</a>
+
+
+      </div>
+
+      
+   </div>
+</section>
+
+</div>
+
+<!-- Javascript -->
+<script src="appetitelogic.js"></script>
+</body>
+</html>
+
+
